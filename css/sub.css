@@ -1,0 +1,208 @@
+.icon-size{
+    inline-size: 34px;
+    margin-top: -40px;
+    margin-left: 10px;
+}
+
+.logo h3{
+    margin-left: 200px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+.nav-con{
+    margin-left: 150px;
+    margin-top: -45px;
+}
+
+nav li{
+    float: left;
+    padding-left: 40px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+nav li:hover{
+    cursor: pointer;
+    color: orangered;
+}
+
+.active{
+    color: orangered;
+    font-weight: bold;
+}
+
+.move{
+    width: 255px;
+    margin-left: 65%;
+    border-color: black;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-color: transparent;
+    margin-top: -100px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text h4{
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.text{
+    width: 575px;
+    height: 400px;
+    margin-left: 122px;
+    margin-top: 120px;
+}
+
+.text h1{
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text p{
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.email{
+    margin-left: 122px;
+}
+
+.contact{
+    margin-top: -130px;
+}
+
+.contact p{
+    margin-left: 185px;
+    margin-top: -35px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.call{
+    margin-left: 330px;
+    margin-top: -55px;
+}
+
+.location{
+    width: 575px;
+    height: 160px;
+    background-color: burlywood;
+    margin-top: 27px;
+    margin-left: 122px;
+}
+
+.form{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(114, 25, 25);
+    margin-left: 750px;
+    padding-top: 30px;
+    margin-top: -500px;
+}
+
+.form h3{
+    padding-left: 30px;
+}
+
+.form-input{
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding-left: 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: burlywood;
+    color: white;
+}
+
+.choose{
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding-left: 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: burlywood;
+    color: white;
+}
+
+.message{
+    width: 540px;
+    height: 100px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-left: 25px;
+    background-color: burlywood;
+    color: white;
+}
+
+.button{
+    width: 170px;
+    height: 60px;
+    margin-top: 25px;
+    margin-left: 390px;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 24px; 
+}
+
+footer{
+    width: 100%;
+    height: 160px;
+    background-color: burlywood;
+    padding-top: 50px;
+    color: black;
+   
+}
+
+footer h4{
+    margin-left: 70px;
+    color: black;
+}
+
+.youtube{
+    inline-size: 34px;
+    margin-left: 1050px;
+    margin-top: -30px;
+}
+
+.facebook{
+    inline-size: 34px;
+    margin-left: 1130px;
+    margin-top: -48px;
+}
+
+.twitter{
+    inline-size: 34px;
+    margin-left: 1200px;
+    margin-top: -48px;
+}
+
+.instagram{
+    inline-size: 34px;
+    margin-left: 1270px;
+    margin-top: -48px;
+}
