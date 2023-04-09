@@ -1,4 +1,19 @@
-<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M31.3433 14.3936H27.8833C26.3539 14.3936 24.8872 14.9722 23.8057 16.0022C22.7243 17.0323 22.1167 18.4293 22.1167 19.886V23.1814H18.6567V27.5754H22.1167V36.3632H26.73V27.5754H30.19L31.3433 23.1814H26.73V19.886C26.73 19.5946 26.8515 19.3152 27.0678 19.1092C27.2841 18.9032 27.5775 18.7875 27.8833 18.7875H31.3433V14.3936Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="25" cy="25" r="24" stroke="black" stroke-width="2"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m31.343,14.394h-3.46c-1.529,0-2.996.579-4.078,1.609-1.081,1.03-1.689,2.427-1.689,3.884v3.295h-3.46v4.394h3.46v8.788h4.613v-8.788h3.46l1.153-4.394h-4.613v-3.295c0-.291.122-.571.338-.777.216-.206.51-.322.816-.322h3.46v-4.394Z"/>
+  <circle class="cls-2" cx="25" cy="25" r="24"/>
 </svg>

@@ -1,3 +1,7 @@
+.background{
+    background-color: #0b0c10;
+}
+
 .icon-size{
     inline-size: 34px;
     margin-top: -40px;
@@ -15,6 +19,7 @@ nav ul{
 .nav-con{
     margin-left: 150px;
     margin-top: -45px;
+    
 }
 
 nav li{
@@ -22,8 +27,9 @@ nav li{
     padding-left: 40px;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
-    color: black;
+    color: white;
     font-weight: bold;
+   
 }
 
 nav li:hover{
@@ -39,7 +45,7 @@ nav li:hover{
 .move{
     width: 255px;
     margin-left: 65%;
-    border-color: black;
+    border-color: #66fcf1;
     border-radius: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -61,6 +67,7 @@ nav li:hover{
     height: 400px;
     margin-left: 122px;
     margin-top: 120px;
+    color: white;
 }
 
 .text h1{
@@ -77,10 +84,12 @@ nav li:hover{
 
 .email{
     margin-left: 122px;
+    color: white;
 }
 
 .contact{
     margin-top: -130px;
+    color: white;
 }
 
 .contact p{
@@ -98,7 +107,6 @@ nav li:hover{
 .location{
     width: 575px;
     height: 160px;
-    background-color: burlywood;
     margin-top: 27px;
     margin-left: 122px;
 }
@@ -106,7 +114,7 @@ nav li:hover{
 .form{
     width: 600px;
     height: 500px;
-    background-color: rgb(114, 25, 25);
+    background-color: #202833;
     margin-left: 750px;
     padding-top: 30px;
     margin-top: -500px;
@@ -114,6 +122,7 @@ nav li:hover{
 
 .form h3{
     padding-left: 30px;
+    color: white;
 }
 
 .form-input{
@@ -126,7 +135,7 @@ nav li:hover{
     border: none;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    background-color: burlywood;
+    background-color: #333c47;
     color: white;
 }
 
@@ -140,7 +149,7 @@ nav li:hover{
     border: none;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    background-color: burlywood;
+    background-color: #333c47;
     color: white;
 }
 
@@ -153,7 +162,7 @@ nav li:hover{
     padding-top: 15px;
     padding-left: 10px;
     margin-left: 25px;
-    background-color: burlywood;
+    background-color: #333c47;
     color: white;
 }
 
@@ -172,37 +181,352 @@ nav li:hover{
 footer{
     width: 100%;
     height: 160px;
-    background-color: burlywood;
+    background-color:  #0b0c10;
     padding-top: 50px;
-    color: black;
+    color: white;
    
 }
 
 footer h4{
     margin-left: 70px;
-    color: black;
+    color: white;
 }
 
 .youtube{
-    inline-size: 34px;
+    inline-size: 50px;
     margin-left: 1050px;
     margin-top: -30px;
 }
 
 .facebook{
-    inline-size: 34px;
+    inline-size: 50px;
     margin-left: 1130px;
     margin-top: -48px;
 }
 
 .twitter{
-    inline-size: 34px;
+    inline-size: 50px;
     margin-left: 1200px;
     margin-top: -48px;
 }
 
 .instagram{
-    inline-size: 34px;
+    inline-size: 50px;
     margin-left: 1270px;
     margin-top: -48px;
 }
+
+.title{
+    margin-left: 122px;
+    margin-top: 85px;
+    color: white;
+}
+
+.image{
+    width: 470px;
+    height: 470px;
+    background-image: url(../assets/Album/happier\ cover.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-left: 122px;
+    padding-top: 170px;
+}
+
+.image h1{
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.image h3{
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.icon{
+    inline-size: 40px;
+    margin-left: 210px;
+    margin-top: 60px;
+}
+
+
+.suggestions{
+    width: 940px;
+    margin-top: 100px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: -200px;
+    
+}
+
+
+.suggestions ul{
+    list-style: none;
+    
+}
+
+.suggestions li{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    float: left;
+    
+}
+
+.suggestions li a{
+    text-decoration: none;
+    color: white;
+}
+
+.suggestions li a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: orangered;
+    margin: auto;
+    display: block;
+}
+
+.suggestions li a:hover::after{
+    width: 100%;
+    transition: 0.3s linear;
+}
+
+.numbers{
+    margin-left: -100px;
+   
+}
+
+.numbers h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.numbers p{
+    padding-bottom: 20px;
+    color: white;
+}
+
+.songs{
+    padding-left: 48px;
+    color: white;
+    margin-top: -430px;
+    margin-left: -60px;
+}
+
+.songs h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+.songs h6,p{
+    padding-bottom: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.songs h6{
+    font-size: 14px;
+}
+
+.songs p{
+    font-size: 12px;
+}
+
+.albums{
+    margin-left: 250px;
+    margin-top: -470px;
+}
+
+.albums h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-weight: bold; 
+}
+
+.albums p{
+    padding-bottom: 20px;
+    color: white;
+}
+
+.duration{
+    margin-left: 455px;
+    margin-top: -470px;
+}
+
+.duration h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 40px; 
+    font-weight: bold;
+}
+
+.duration p{
+    padding-bottom: 20px;
+    color: white;
+}
+
+
+.dots h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 40px; 
+    font-weight: bold;
+}
+
+.dots{
+    margin-left: 560px;
+    margin-top: -360px;
+}
+
+.dots p{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+
+.lines{
+    width: 680px;
+    height: 2px;
+    background-color: #202833;
+    margin-top: -310px;
+    margin-left: -100px;
+}
+
+
+
+
+.lines2{
+    width: 680px;
+    height: 2px;
+    background-color:#202833;
+    margin-top: 60px;
+    margin-left: -100px;
+}
+
+
+
+.lines3{
+    width: 680px;
+    height: 2px;
+    background-color:#202833;
+    margin-top: 60px;
+    margin-left: -100px;
+}
+
+
+.lines4{
+    width: 680px;
+    height: 2px;
+    background-color: #202833;
+    margin-top: 60px;
+    margin-left: -100px;
+}
+
+
+.lines5{
+    width: 680px;
+    height: 2px;
+    background-color: #202833;
+    margin-top: 60px;
+    margin-left: -100px;
+}
+
+
+
+.lines6{
+    width: 680px;
+    height: 2px;
+    background-color: #202833;
+    margin-top: 55px;
+    margin-left: -100px;
+}
+
+
+.player-line{
+    width: 1200px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 122px;
+    margin-left: -700px;
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: lightgrey;
+    
+}
+
+.line-fill{
+    width: 40%;
+    height: 5px;
+    background-color: #66fcf1;
+}
+
+.marker{
+    width: 30px;
+    height: 30px;
+    background-color: #66fcf1;
+    border-radius: 40px;
+    margin: 0 auto ;
+    margin-top: -18px;
+    margin-left: 480px;
+}
+
+.picture{
+    float: left;
+}
+
+.small-picture{
+    width: 70px;
+    height: 70px;
+    background-image: url(../assets/Album/restoration_album_cover.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: -700px;
+    margin-top: -20px;
+}
+
+.writing{
+    margin-left: 220px;
+    margin-top: -65px;
+    margin-left: -610px;
+    color: white;
+}
+
+.player{
+    margin-left: -150px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.end{
+    float: left ;
+    font-weight: bold;
+    margin-left: 400px;
+    margin-top: -60px;
+    color: white;
+}
+
+
+
