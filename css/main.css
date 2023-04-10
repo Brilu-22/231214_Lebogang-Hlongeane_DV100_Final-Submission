@@ -23,25 +23,25 @@ nav li{
     float: left;
     padding-left: 40px;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
     color: white;
     font-weight: bold;
 }
 
 nav li:hover{
     cursor: pointer;
-    color: orangered;
+    color: rgba(193, 22, 136, 0.805);
 }
 
 .active{
-    color: orangered;
+    color: black;
     font-weight: bold;
 }
 
 .move{
     width: 255px;
     margin-left: 75%;
-    border-color: #66FCF1;
+    border-color: black;
     border-radius: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -49,17 +49,17 @@ nav li:hover{
     background-color: transparent;
     margin-top: -100px;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 header{
     width: 100%;
     height: 840px;
-    background-image: url(../assets/Cover/logic_no_pressure_home_cover_image.png);
+    background-image: url(../assets/Cover/Screenshot\ 2023-04-10\ 095022.png);
     background-size: cover;
     background-position: center;
     margin-top: -89px;
-    color: white;
+    color: black;
 }
 
 .heading{
@@ -70,19 +70,19 @@ header{
 .overlay2{
     width: 100%;
     height: 840px;
-    background-color: rgba(0, 0, 0, 0.5);
+   
     padding-top: 100px;
     padding-left: 10%;
 }
 
 header h3{
     font-size: 36px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik Pixels', cursive;
 }
 
 header h1{
     font-size: 72px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
     margin-bottom: 70px;
 }
 .button{
@@ -92,37 +92,37 @@ header h1{
 .normal-button{
     width: 255px;
     height: 70px;
-    background-color:  #66FCF1;
-    border: 3px solid  #66FCF1;
+    background-color:  black;
+    border: 3px solid  black;
     border-radius: 35px;
     padding-top: 10px;
     padding-bottom: 5px;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
     color: white;
 }
 
 .normal-button:hover{
     cursor: pointer;
     background-color: transparent;
-    border: 3px solid orangered;
+    border: 3px solid rgba(193, 22, 136, 0.805);
     color: white;
 }
 
 .inverted-button{
     width: 255px;
     height: 70px;
-    background-color:  #66FCF1;
-    border: 3px solid  #66FCF1;
+    background-color:  black;
+    border: 3px solid  black;
     border-radius: 35px;
     padding-top: 10px;
     padding-bottom: 5px;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
     color: white;
     margin-left: 280px;
     margin-top: -70px;
@@ -131,7 +131,7 @@ header h1{
 .inverted-button:hover{
     cursor: pointer;
     background-color: transparent;
-    border: 3px solid orangered;
+    border: 3px solid burlywood;
     color: white;
 }
 
@@ -149,7 +149,7 @@ header h1{
 .text{
     width: 650px;
     height: 400px;
-    background-color: rgba(32, 40, 51, 0.8);
+    background-color: rgba(193, 22, 136, 0.805);
     padding-top: 50px;
     padding-right: 40px;
     margin-left: 789px;
@@ -159,20 +159,20 @@ header h1{
 
 .text h3{
     font-size: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Pixels', cursive;
     margin-left: 80px;
     
 }
 
 .text h1{
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Pixels', cursive;
     margin-left: 80px;
 }
 
 .text p{
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
     font-weight: bold;
     margin-left: 80px;
 }
@@ -198,7 +198,7 @@ header h1{
 }
 
 .heading{
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Rubik Pixels', cursive;
     font-weight: bold;
     color: white;
     padding-top: 200px;
@@ -208,7 +208,7 @@ header h1{
 .col-box{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/Album/man_on_the_moon_album_cover.png);
+    background-image: url(../assets/Album/1\ album-Jcole.jpg);
     background-position: center;
     background-size: cover;
     margin-top: 50px;
@@ -220,7 +220,7 @@ header h1{
 .col-box2{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/Album/blame_it_on_baby_album_cover.png);
+    background-image: url(../assets/Album/2\ album\ Summer\ walker.jpg);
     background-position: center;
     background-size: cover;
     margin-top: 50px;
@@ -231,7 +231,7 @@ header h1{
 .col-box3{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/Album/happy_thoughts_album_cover.png);
+    background-image: url(../assets/Album/3\ album\ HER.jpg);
     background-position: center;
     background-size: cover;
     margin-top: 50px;
@@ -242,7 +242,7 @@ header h1{
 .col-box4{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/Album/music_to_be_murdered_by_album_cover.png);
+    background-image: url(../assets/Album/4\ album\ one\ house.jpg);
     background-position: center;
     background-size: cover;
     margin-top: 50px;
@@ -253,7 +253,7 @@ header h1{
 .col-box5{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/Album/low_end_theory_album_cover.png);
+    background-image: url(../assets/Album/5\ album\ starRo.jpg);
     background-position: center;
     background-size: cover;
     margin-top: 50px;
@@ -264,7 +264,7 @@ header h1{
 .col-box6{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/Album/wu_tang_album_cover.png);
+    background-image: url(../assets/Album/6\ album\ naomi.jpg);
     background-position: center;
     background-size: cover;
     margin-top: 50px;
@@ -275,7 +275,7 @@ header h1{
 .col-box7{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/Album/to_pimp_a_butterfly_album_cover.png);
+    background-image: url(../assets/Album/7\ album\ lecrae.jpg);
     background-position: center;
     background-size: cover;
     margin-top: 50px;
@@ -286,7 +286,7 @@ header h1{
 .col-box8{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/Album/revenge_album_cover.png);
+    background-image: url(../assets/Album/8\ album\ brent\ faiyaz.jpg);
     background-position: center;
     background-size: cover;
     margin-top: 50px;
@@ -297,7 +297,7 @@ header h1{
 .col-box9{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/Album/kod_album_cover.png);
+    background-image: url(../assets/Album/9\ album\ blxst.jpg);
     background-position: center;
     background-size: cover;
     margin-top: 50px;
@@ -308,7 +308,7 @@ header h1{
 .col-box10{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/Album/no_pressure_album_cover.png);
+    background-image: url(../assets/Album/10\ album\ blxst.jpg);
     background-position: center;
     background-size: cover;
     margin-top: 50px;
@@ -319,7 +319,7 @@ header h1{
 .col-box11{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/Album/circles_album_cover.png);
+    background-image: url(../assets/Album/11\ album\ seventeen.jpg);
     background-position: center;
     background-size: cover;
     margin-top: 50px;
@@ -330,7 +330,7 @@ header h1{
 .col-box12{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/Album/kanye_album_cover.png);
+    background-image: url(../assets/Album/14\ album\ bambam.jpg);
     background-position: center;
     background-size: cover;
     margin-top: 50px;
@@ -354,7 +354,7 @@ header h1{
 .icon{
     width: 60px;
     height: 60px;
-    background-image: url(../assets/Icons/other/play_icon.svg);
+    background-image: url(../assets/Icons/other/play_icon\ \(2\).svg);
     background-size: cover;
     background-position: center;
     border-radius: 30px;
@@ -370,10 +370,10 @@ header h1{
     width: 225px;
     height: 51px;
     margin-top: 30px;
-    color: white;
+    color: rgb(2, 62, 2);
     padding-left: 25px;
     padding-top: 9px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     font-weight: bold;
     margin-left: -20px;
     font-size: 10px;

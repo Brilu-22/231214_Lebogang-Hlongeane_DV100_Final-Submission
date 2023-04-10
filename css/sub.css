@@ -42,7 +42,7 @@ nav li{
     float: left;
     padding-left: 40px;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
     color: white;
     font-weight: bold;
    
@@ -50,18 +50,18 @@ nav li{
 
 nav li:hover{
     cursor: pointer;
-    color: orangered;
+    color:rgba(193, 22, 136, 0.805);
 }
 
 .active{
-    color: orangered;
+    color: rgba(193, 22, 136, 0.805);
     font-weight: bold;
 }
 
 .move{
     width: 255px;
     margin-left: 65%;
-    border-color: #66fcf1;
+    border-color:rgba(193, 22, 136, 0.805);
     border-radius: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -69,12 +69,12 @@ nav li:hover{
     background-color: transparent;
     margin-top: -100px;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .text h4{
     font-size: 24px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik Pixels', cursive;
     font-weight: 600;
 }
 
@@ -88,19 +88,26 @@ nav li:hover{
 
 .text h1{
     font-size: 48px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: rgba(193, 22, 136, 0.805);
 }
 
 .text p{
     margin-top: 30px;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     font-weight: bold;
 }
 
 .email{
+    inline-size: 50px;
     margin-left: 122px;
     color: white;
+    margin-top: 10px;
+}
+
+.email-move{
+    margin-left: -130px;
 }
 
 .contact{
@@ -112,12 +119,18 @@ nav li:hover{
     margin-left: 185px;
     margin-top: -35px;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .call{
-    margin-left: 330px;
+    inline-size: 50px;
+    margin-left: 390px;
     margin-top: -55px;
+}
+
+.call-move{
+    float: left;
+    margin-left: -100px;
 }
 
 .location{
@@ -130,7 +143,7 @@ nav li:hover{
 .form{
     width: 600px;
     height: 500px;
-    background-color: #202833;
+    background-color:rgba(193, 22, 136, 0.805);
     margin-left: 750px;
     padding-top: 30px;
     margin-top: -500px;
@@ -150,8 +163,8 @@ nav li:hover{
     border-radius: 25px;
     border: none;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #333c47;
+    font-family: 'Sedgwick Ave Display', cursive;
+    background-color:rgba(131, 48, 103, 0.805);
     color: white;
 }
 
@@ -164,8 +177,8 @@ nav li:hover{
     border-radius: 25px;
     border: none;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #333c47;
+    font-family: 'Sedgwick Ave Display', cursive;
+    background-color:rgba(131, 48, 103, 0.805);
     color: white;
 }
 
@@ -178,7 +191,7 @@ nav li:hover{
     padding-top: 15px;
     padding-left: 10px;
     margin-left: 25px;
-    background-color: #333c47;
+    background-color:rgba(131, 48, 103, 0.805);
     color: white;
 }
 
@@ -188,7 +201,7 @@ nav li:hover{
     margin-top: 25px;
     margin-left: 390px;
     border-radius: 40px;
-    background-color: #66fcf1;
+    background-color:#0b0c10;
     color: white;
     font-weight: bold;
     font-size: 24px; 
@@ -241,7 +254,7 @@ footer h4{
 .image{
     width: 470px;
     height: 470px;
-    background-image: url(../assets/Album/happier\ cover.jpg);
+    background-image: url(../assets/Album/1\ album-Jcole.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -251,16 +264,16 @@ footer h4{
 
 .image h1{
     font-size: 64px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 .image h3{
     font-size: 48px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 .icon{
@@ -274,7 +287,7 @@ footer h4{
     width: 940px;
     margin-top: 100px;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     margin-left: -200px;
     
 }
@@ -302,7 +315,7 @@ footer h4{
     content: "";
     width: 0;
     height: 3px;
-    background-color: orangered;
+    background-color:rgba(193, 22, 136, 0.805);
     margin: auto;
     display: block;
 }
@@ -339,7 +352,7 @@ footer h4{
 }
 
 .songs h5{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 18px;
     padding-bottom: 40px;
     font-weight: bold;
@@ -347,7 +360,7 @@ footer h4{
 
 .songs h6,p{
     padding-bottom: 3px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .songs h6{
@@ -364,7 +377,7 @@ footer h4{
 }
 
 .albums h5{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 18px;
     color: white;
     padding-bottom: 40px;
@@ -383,7 +396,7 @@ footer h4{
 }
 
 .duration h5{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 18px;
     color: white;
     padding-bottom: 40px;
@@ -496,13 +509,13 @@ footer h4{
 .line-fill{
     width: 40%;
     height: 5px;
-    background-color: #66fcf1;
+    background-color:rgba(193, 22, 136, 0.805);
 }
 
 .marker{
     width: 30px;
     height: 30px;
-    background-color: #66fcf1;
+    background-color: rgba(193, 22, 136, 0.805);
     border-radius: 40px;
     margin: 0 auto ;
     margin-top: -18px;
